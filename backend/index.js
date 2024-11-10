@@ -8,7 +8,7 @@ const port = process.env.PORT || 8080;
 
 
 const corsOptions = {
-    origin: 'https://doctor-web-eight.vercel.app/', // Replace with your frontend domain
+    origin: 'https://doctor-web-eight.vercel.app', // Replace with your frontend domain
     methods: ['GET', 'POST'],
     credentials: true,
 };
