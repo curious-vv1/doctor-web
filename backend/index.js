@@ -30,17 +30,17 @@ const addRow = async (rows) => {
     }
 };
 
-let rows = [
-    {
-        name: "Test Name",
-        mobile: "1234567890",
-        email: "test@example.com",
-        date: "2023-10-01",
-        time: "11:00",
-    },
-];
+// let rows = [
+//     {
+//         name: "Test Name",
+//         mobile: "1234567890",
+//         email: "test@example.com",
+//         date: "2023-10-01",
+//         time: "11:00",
+//     },
+// ];
 
-addRow(rows);
+// addRow(rows);
 
 app.get('/', (req, res) => {
     res.send('server started');
