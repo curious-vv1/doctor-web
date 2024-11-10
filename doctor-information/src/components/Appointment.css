@@ -1,0 +1,75 @@
+/* src/components/Appointment.css */
+
+.appointment-enclose {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.appointment-container {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+.info {
+  background-color: #1abc9c;
+  color: white;
+  padding: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  flex: 1;
+}
+
+.appointment-form {
+  padding: 40px;
+  flex: 1;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #1abc9c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80%;
+  display: block; /* Added to center the button */
+  margin: 0 auto; /* Added to center the button */
+}
+
+button:hover {
+  background-color: #24ebc3;
+}
+
+.appointment-back{
+  color: white;
+}

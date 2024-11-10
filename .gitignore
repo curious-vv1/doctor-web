@@ -1,0 +1,5 @@
+/backend/node_modules
+/doctor-information/node_modules
+/node_modules
+
+/backend/.env
