@@ -19,6 +19,18 @@
   width: 100%;
 }
 
+@media (max-width: 600px){
+  .appointment-container{
+    flex-direction:column;
+  }
+  .appointment-enclose{
+    height: fit-content;
+  }
+  .info-tab{
+    text-align: center;
+  }
+}
+
 .info {
   background-color: #1abc9c;
   color: white;

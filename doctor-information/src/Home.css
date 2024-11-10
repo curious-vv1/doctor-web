@@ -31,13 +31,19 @@
     /* text-decoration: underline; */
     color: #1abc9c;
 }
-
 .header-container {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: left;
     margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 .header-title {
