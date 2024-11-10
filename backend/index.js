@@ -6,7 +6,14 @@ const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 8080;
 
-app.use(cors());
+
+const corsOptions = {
+    origin: 'https://doctor-web-eight.vercel.app/', // Replace with your frontend domain
+    methods: ['GET', 'POST'],
+    credentials: true,
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 const doc = new GoogleSpreadsheet(process.env.RESPONSES_SHEET_ID);

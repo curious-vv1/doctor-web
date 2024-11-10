@@ -21,7 +21,7 @@ const Appointment = () => {
   const addRow = async (row) => {
     // Updated to accept a single row
     try {
-      const response = await fetch("http://localhost:8080/appointments", {
+      const response = await fetch("https://doctor-web-4cz4.onrender.com/appointments", {
         // Send POST request to backend
         method: "POST",
         headers: {
